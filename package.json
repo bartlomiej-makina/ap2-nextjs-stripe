@@ -1,6 +1,6 @@
 {
-  "name": "next-pages",
-  "version": "2.0.14",
+  "name": "ap2-nextjs-stripe",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next",
@@ -32,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_USERNAME/ap2-nextjs.git"
+    "url": "https://github.com/bartlomiej-makina/ap2-nextjs-stripe.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/ap2-nextjs/issues"
+    "url": "https://github.com/bartlomiej-makina/ap2-nextjs-stripe.git"
   },
   "license": "MIT"
 }

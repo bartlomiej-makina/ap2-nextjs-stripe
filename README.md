@@ -1,52 +1,52 @@
-# AP2 with A2A Protocol - Complete Implementation 🚀
+# AP2 with A2A Protocol - Complete Implementation
 
 > **Full demonstration of Agent Payments Protocol (AP2) with full Agent-to-Agent (A2A) communication**
 
 This project showcases a **complete, working implementation** of Google's Agent Payments Protocol (AP2) with real A2A message exchange, cryptographic JWT signatures, AI agents, and actual payment processing. Experience the future of agentic commerce!
 
-## 🎯 What is AP2?
+## What is AP2?
 
 **Agent Payments Protocol (AP2)** is an open protocol for the emerging Agent Economy, designed to enable secure, reliable, and interoperable agent commerce. It uses **Verifiable Digital Credentials (VDCs)** to engineer trust in AI-driven transactions.
 
 ### Key Concepts Demonstrated:
 
-- 🎫 **Intent Mandate**: Captures user's purchase intent with explicit consent
-- 🛒 **Cart Mandate**: Merchant-signed guarantee of items and pricing
-- 💳 **Payment Mandate**: Cryptographically signed payment authorization
-- 🤝 **Agent-to-Agent Communication**: Shopping Agent, Merchant Agent, and Credentials Provider collaboration
+- **Intent Mandate**: Captures user's purchase intent with explicit consent
+- **Cart Mandate**: Merchant-signed guarantee of items and pricing
+- **Payment Mandate**: Cryptographically signed payment authorization
+- **Agent-to-Agent Communication**: Shopping Agent, Merchant Agent, and Credentials Provider collaboration
 
-## ✨ What Makes This Special
+## What Makes This Special
 
 This is a implementation features:
 
-### 🔗 **Real A2A Protocol**
+### **Real A2A Protocol**
 - Actual agent-to-agent message exchange between Shopping Agent, Merchant Agent, and Credentials Provider
 - Visual A2A message log showing all inter-agent communication
 - Proper A2A message structure with TextPart and DataPart
 
-### 🔐 **Real Cryptographic Security**
+### **Real Cryptographic Security**
 - JWT signatures on Cart Mandates (merchant authorization)
 - JWT signatures on Payment Mandates (user authorization)
 - SHA-256 hashing for mandate integrity
 - Complete audit trail with non-repudiable proof
 
-### 🤖 **Real AI Agent**
+### **Real AI Agent**
 - LangChain-powered Shopping Agent using Moonshot AI Kimi K2 (via OpenRouter)
 - Natural language understanding of vacation preferences
 - Intelligent package matching and recommendations
 
-### 💳 **Real Payment Processing**
+### **Real Payment Processing**
 - Stripe integration in test mode
 - W3C Payment Request API compliance
 - Full payment flow from intent to confirmation
 
-### 🎨 **Beautiful, Transparent UI**
+### **Beautiful, Transparent UI**
 - Watch agents communicate in real-time
 - See the exact data structures (mandates) being exchanged
 - Visual step-by-step transaction flow
 - Modern, responsive design with Chakra UI v3
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -103,7 +103,7 @@ npm run dev
 yarn dev
 ```
 
-## 🎮 How to Use the Demo
+## How to Use the Demo
 
 ### Complete A2A Protocol Experience
 
@@ -142,13 +142,13 @@ yarn dev
 
 9. **Confirmation**: Receive your booking confirmation with all mandate details!
 
-## 📚 Learn More About AP2
+## Learn More About AP2
 
 - [Official AP2 Documentation](https://ap2-protocol.org/)
 - [AP2 GitHub Repository](https://github.com/google-agentic-commerce/AP2)
 - [Google Cloud Blog Post](https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol)
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Core Protocols
 - **AP2 Protocol** - Agent Payments Protocol (Intent, Cart, Payment Mandates)
@@ -168,7 +168,7 @@ yarn dev
 - **TypeScript** - Type-safe development
 - **React 19** - Latest React features
 
-## 🎨 Architecture Overview
+## Architecture Overview
 
 ### Three Agent Architecture (Separate API Endpoints)
 
@@ -195,24 +195,24 @@ yarn dev
 - **`CartMandate`** - Merchant-signed cart with JWT authorization
 - **`PaymentMandate`** - User-signed payment with JWT authorization
 
-## 🔒 Security & Trust
+## Security & Trust
 
 This demo showcases AP2's trust mechanisms:
 
-- ✅ Cryptographic signatures on all mandates
-- ✅ Non-repudiable proof of user intent
-- ✅ Transparent audit trail of all transactions
-- ✅ Role-based architecture for privacy
+- Cryptographic signatures on all mandates
+- Non-repudiable proof of user intent
+- Transparent audit trail of all transactions
+- Role-based architecture for privacy
 
-## 🏭 Production Readiness
+## Production Readiness
 
 This is a **demo implementation**. For production, upgrade JWT from HS256 to RS256 with proper RSA key pairs.
 
-## 📝 License
+## License
 
 This project is MIT licensed. The AP2 reference implementation is Apache 2.0 licensed.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built on [Google's Agent Payments Protocol (AP2)](https://github.com/google-agentic-commerce/AP2)
 - Images provided by [Unsplash](https://unsplash.com)
