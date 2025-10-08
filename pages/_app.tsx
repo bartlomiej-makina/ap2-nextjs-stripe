@@ -5,7 +5,12 @@ import { AppProps } from "next/app"
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider value={defaultSystem}>
-      <ThemeProvider attribute="class" disableTransitionOnChange>
+      <ThemeProvider 
+        attribute="class" 
+        disableTransitionOnChange 
+        forcedTheme="light"
+        enableSystem={false}
+      >
         <Component {...pageProps} />
       </ThemeProvider>
     </ChakraProvider>
