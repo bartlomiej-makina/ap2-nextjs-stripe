@@ -576,7 +576,7 @@ function MessageBubble({
   onRetryPayment: () => void;
 }) {
   return (
-    <Box alignSelf={message.role === "user" ? "end" : "start"} maxW="80%">
+    <Box alignSelf={message.role === "user" ? "end" : "start"} maxW={{ base: "100%", md: "80%" }}>
       {message.role !== "user" && (
         <Badge colorPalette={message.role === "system" ? "orange" : "blue"} mb={2}>
           {message.agent || (message.role === "system" ? "System" : "AI Assistant")}
